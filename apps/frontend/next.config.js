@@ -3,6 +3,7 @@ import { withSentryConfig } from '@sentry/nextjs';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  allowedDevOrigins: ['tluagentbot.online'],
   experimental: {
     proxyTimeout: 90_000,
   },
